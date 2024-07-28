@@ -1,0 +1,7 @@
+
+Epoch 5/(32, 0.0925132402895901, 40), loss 3.19511, val_loss 3.23214, weighted_F1 0.00079
+Epoch 10/(32, 0.0925132402895901, 40), loss 3.19446, val_loss 3.23023, weighted_F1 0.00316
+Epoch 15/(32, 0.0925132402895901, 40), loss 3.19467, val_loss 3.21426, weighted_F1 0.00231
+Epoch 20/(32, 0.0925132402895901, 40), loss 3.19574, val_loss 3.22612, weighted_F1 0.00228
+Epoch 25/(32, 0.0925132402895901, 40), loss 3.19447, val_loss 3.21999, weighted_F1 0.00358
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.

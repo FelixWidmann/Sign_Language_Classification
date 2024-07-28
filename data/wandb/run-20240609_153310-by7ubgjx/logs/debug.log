@@ -1,0 +1,47 @@
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Configure stats pid to 42920
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/.config/wandb/settings
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/settings
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'machine-learning-project', 'entity': 'felix-organisation', 'root_dir': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data', 'sweep_id': 'jn9g61ij', 'run_id': 'by7ubgjx', 'sweep_param_path': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/sweep-jn9g61ij/config-by7ubgjx.yaml'}
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_init.py:_log_setup():520] Logging user logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240609_153310-by7ubgjx/logs/debug.log
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240609_153310-by7ubgjx/logs/debug-internal.log
+2024-06-09 15:33:10,586 INFO    Thread-19 (_run_job):42920 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x149455590>
+2024-06-09 15:33:10,587 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():560] calling init triggers
+2024-06-09 15:33:10,587 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():567] wandb.init called with sweep_config: {'batch_size': 128, 'learning_rate': 0.08031401052783187, 'n_epochs': 20}
+config: {}
+2024-06-09 15:33:10,587 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():610] starting backend
+2024-06-09 15:33:10,587 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():614] setting up manager
+2024-06-09 15:33:10,592 INFO    Thread-19 (_run_job):42920 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-06-09 15:33:10,594 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():622] backend started and connected
+2024-06-09 15:33:10,605 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_config_callback():1376] config_cb None None {'batch_size': 128, 'learning_rate': 0.08031401052783187, 'n_epochs': 20}
+2024-06-09 15:33:10,607 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-06-09 15:33:10,607 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-09 15:33:10,607 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():711] updated telemetry
+2024-06-09 15:33:10,658 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-09 15:33:11,038 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_on_init():2396] communicating current version
+2024-06-09 15:33:11,137 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-09 15:33:11,137 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():795] starting run threads in backend
+2024-06-09 15:33:11,342 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_console_start():2374] atexit reg
+2024-06-09 15:33:11,342 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-06-09 15:33:11,342 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-06-09 15:33:11,343 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-06-09 15:33:11,345 INFO    Thread-19 (_run_job):42920 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-09 15:38:22,024 INFO    MainThread:42920 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-09 15:38:22,024 INFO    MainThread:42920 [wandb_init.py:_pause_backend():431] pausing backend
+2024-06-09 15:38:35,693 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_finish():2103] finishing run felix-organisation/machine-learning-project/by7ubgjx
+2024-06-09 15:38:35,694 ERROR   Thread-19 (_run_job):42920 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-06-09 15:38:35,694 INFO    Thread-19 (_run_job):42920 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-09 15:38:35,694 INFO    Thread-19 (_run_job):42920 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-06-09 15:38:35,694 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 1
+2024-06-09 15:38:35,695 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_restore():2326] restore
+2024-06-09 15:38:35,695 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_restore():2332] restore done
+2024-06-09 15:38:41,223 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-06-09 15:38:41,224 INFO    Thread-19 (_run_job):42920 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-06-09 15:42:56,687 INFO    MainThread:42920 [pyagent.py:run():323] Starting sweep agent: entity=None, project=None, count=20
+2024-06-09 15:50:55,708 INFO    MainThread:42920 [pyagent.py:run():323] Starting sweep agent: entity=None, project=None, count=20
+2024-06-09 15:55:55,675 ERROR   Thread-31 (_heartbeat):42920 [internal_api.py:execute():344] 404 response executing GraphQL.
+2024-06-09 15:55:55,676 ERROR   Thread-31 (_heartbeat):42920 [internal_api.py:execute():345] {"errors":[{"message":"could not find agent 63o9kppt during agentHeartbeat","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}

@@ -1,0 +1,11 @@
+
+Epoch 5/(32, 0.001, 50), loss 0.02915, val_loss 0.18665, weighted_F1 0.94322
+Epoch 10/(32, 0.001, 50), loss 0.02225, val_loss 0.29258, weighted_F1 0.94529
+Epoch 15/(32, 0.001, 50), loss 0.00757, val_loss 0.16041, weighted_F1 0.96975
+Epoch 20/(32, 0.001, 50), loss 0.00699, val_loss 0.30172, weighted_F1 0.95986
+Epoch 25/(32, 0.001, 50), loss 0.01053, val_loss 0.26467, weighted_F1 0.96143
+Epoch 30/(32, 0.001, 50), loss 0.00963, val_loss 0.35988, weighted_F1 0.95422
+Epoch 35/(32, 0.001, 50), loss 0.01388, val_loss 0.46984, weighted_F1 0.94647
+Epoch 40/(32, 0.001, 50), loss 0.00404, val_loss 0.43564, weighted_F1 0.95608
+Epoch 45/(32, 0.001, 50), loss 0.01291, val_loss 0.43870, weighted_F1 0.96075
+Epoch 50/(32, 0.001, 50), loss 0.01416, val_loss 0.53367, weighted_F1 0.95709

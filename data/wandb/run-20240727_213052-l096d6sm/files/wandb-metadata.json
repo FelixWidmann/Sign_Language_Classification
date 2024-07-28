@@ -1,0 +1,38 @@
+{
+    "os": "macOS-14.3.1-x86_64-i386-64bit",
+    "python": "3.11.8",
+    "heartbeatAt": "2024-07-27T19:30:53.760199",
+    "startedAt": "2024-07-27T19:30:52.677993",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "MacBook-Pro-von-Felix-2.fritz.box",
+    "username": "felixwidmann",
+    "executable": "/Users/felixwidmann/Documents/DHBW/ML_Assignment/.venv/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 465.62699127197266,
+            "used": 13.3900146484375
+        }
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

@@ -1,0 +1,758 @@
+2024-07-26 21:15:48,574 INFO    StreamThr :16102 [internal.py:wandb_internal():85] W&B internal server running at pid: 16102, started at: 2024-07-26 21:15:48.573994
+2024-07-26 21:15:48,575 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status
+2024-07-26 21:15:48,586 INFO    WriterThread:16102 [datastore.py:open_for_write():87] open: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/run-2tdgwnsd.wandb
+2024-07-26 21:15:48,586 DEBUG   SenderThread:16102 [sender.py:send():378] send: header
+2024-07-26 21:15:48,587 DEBUG   SenderThread:16102 [sender.py:send():378] send: run
+2024-07-26 21:15:48,967 INFO    SenderThread:16102 [dir_watcher.py:__init__():211] watching files in: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files
+2024-07-26 21:15:48,968 INFO    SenderThread:16102 [sender.py:_start_run_threads():1123] run started: 2tdgwnsd with start time 1722021348.573701
+2024-07-26 21:15:48,977 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: check_version
+2024-07-26 21:15:48,978 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: check_version
+2024-07-26 21:15:49,081 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: run_start
+2024-07-26 21:15:49,092 DEBUG   HandlerThread:16102 [system_info.py:__init__():26] System info init
+2024-07-26 21:15:49,092 DEBUG   HandlerThread:16102 [system_info.py:__init__():41] System info init done
+2024-07-26 21:15:49,092 INFO    HandlerThread:16102 [system_monitor.py:start():194] Starting system monitor
+2024-07-26 21:15:49,092 INFO    SystemMonitor:16102 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-26 21:15:49,093 INFO    HandlerThread:16102 [system_monitor.py:probe():214] Collecting system info
+2024-07-26 21:15:49,093 INFO    SystemMonitor:16102 [interfaces.py:start():188] Started cpu monitoring
+2024-07-26 21:15:49,093 DEBUG   HandlerThread:16102 [system_info.py:probe():150] Probing system
+2024-07-26 21:15:49,094 INFO    SystemMonitor:16102 [interfaces.py:start():188] Started disk monitoring
+2024-07-26 21:15:49,096 INFO    SystemMonitor:16102 [interfaces.py:start():188] Started memory monitoring
+2024-07-26 21:15:49,097 INFO    SystemMonitor:16102 [interfaces.py:start():188] Started network monitoring
+2024-07-26 21:15:49,105 DEBUG   HandlerThread:16102 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-26 21:15:49,106 DEBUG   HandlerThread:16102 [system_info.py:probe():198] Probing system done
+2024-07-26 21:15:49,106 DEBUG   HandlerThread:16102 [system_monitor.py:probe():223] {'os': 'macOS-14.3.1-x86_64-i386-64bit', 'python': '3.11.8', 'heartbeatAt': '2024-07-26T19:15:49.094406', 'startedAt': '2024-07-26T19:15:48.563315', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'MacBook-Pro-von-Felix-2.fritz.box', 'username': 'felixwidmann', 'executable': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 465.62699127197266, 'used': 13.3900146484375}}, 'memory': {'total': 32.0}}
+2024-07-26 21:15:49,106 INFO    HandlerThread:16102 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-26 21:15:49,106 INFO    HandlerThread:16102 [system_monitor.py:probe():227] Publishing system info
+2024-07-26 21:15:49,107 INFO    HandlerThread:16102 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-26 21:15:49,109 DEBUG   SenderThread:16102 [sender.py:send():378] send: files
+2024-07-26 21:15:49,109 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-07-26 21:15:49,199 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-26 21:15:49,199 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: python_packages
+2024-07-26 21:15:49,200 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:15:49,200 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:15:49,420 DEBUG   SenderThread:16102 [sender.py:send():378] send: telemetry
+2024-07-26 21:15:49,739 INFO    wandb-upload_0:16102 [upload_job.py:push():130] Uploaded file /var/folders/k7/386dbb0555z58pfypthxc1mw0000gn/T/tmpbjbmj9uiwandb/125c3yj4-wandb-metadata.json
+2024-07-26 21:15:49,976 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/requirements.txt
+2024-07-26 21:15:49,977 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-metadata.json
+2024-07-26 21:15:54,431 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:15:59,459 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:04,205 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:16:04,205 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:16:04,543 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:09,558 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:14,569 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:19,208 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:16:19,209 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:16:20,411 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:21,083 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/config.yaml
+2024-07-26 21:16:25,617 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:28,668 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:16:28,669 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:16:28,669 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:16:28,671 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:16:29,109 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:16:30,687 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:34,209 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:16:34,209 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:16:36,554 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:41,567 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:46,576 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:49,104 DEBUG   SystemMonitor:16102 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-26 21:16:49,105 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:16:49,210 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:16:49,210 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:16:52,438 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:16:57,460 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:02,484 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:04,210 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:17:04,210 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:17:07,560 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:12,576 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:14,582 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:17:14,582 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:17:14,583 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:17:14,584 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:17:15,278 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:17:17,593 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:19,107 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:17:19,212 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:17:19,213 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:17:23,510 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:28,518 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:33,532 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:34,213 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:17:34,214 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:17:39,439 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:44,459 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:49,108 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:17:49,214 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:17:49,214 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:17:49,478 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:54,501 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:59,518 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:17:59,736 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:17:59,737 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:17:59,737 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:17:59,739 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:18:00,436 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:18:04,219 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:18:04,220 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:18:05,390 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:10,396 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:15,412 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:19,110 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:18:19,220 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:18:19,220 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:18:20,423 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:25,435 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:30,448 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:34,230 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:18:34,230 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:18:35,457 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:40,479 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:44,862 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:18:44,863 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:18:44,863 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:18:44,865 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:18:45,637 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:18:45,868 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:49,121 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:18:49,231 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:18:49,232 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:18:51,494 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:18:56,506 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:01,521 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:04,233 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:19:04,234 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:19:07,454 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:12,471 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:17,492 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:19,124 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:19:19,243 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:19:19,243 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:19:23,488 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:28,504 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:30,289 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:19:30,290 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:19:30,290 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:19:30,292 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:19:30,797 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:19:30,797 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:19:32,805 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:19:34,247 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:19:34,247 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:19:34,570 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:39,601 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:44,614 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:49,131 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:19:49,248 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:19:49,248 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:19:50,487 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:19:55,510 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:00,532 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:04,248 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:20:04,249 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:20:06,446 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:11,451 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:16,046 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:20:16,046 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:20:16,047 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:20:16,048 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:20:16,960 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:20:17,049 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:19,138 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:20:19,249 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:20:19,250 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:20:22,639 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:27,651 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:32,665 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:34,257 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:20:34,257 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:20:38,545 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:43,569 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:48,590 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:49,145 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:20:49,258 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:20:49,259 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:20:53,649 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:20:58,661 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:01,380 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:21:01,381 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:21:01,381 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:21:01,383 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:21:02,145 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:21:04,267 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:21:04,267 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:21:04,511 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:09,525 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:14,534 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:19,147 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:21:19,267 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:21:19,268 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:21:20,495 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:25,499 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:30,514 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:34,276 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:21:34,276 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:21:36,501 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:41,535 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:46,558 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:47,749 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:21:47,750 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:21:47,750 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:21:47,752 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:21:48,313 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:21:49,151 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:21:49,276 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:21:49,276 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:21:52,515 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:21:57,546 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:02,552 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:04,280 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:22:04,281 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:22:07,606 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:12,620 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:17,630 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:19,161 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:22:19,286 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:22:19,287 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:22:23,546 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:28,563 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:33,569 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:34,294 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:22:34,295 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:22:35,804 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:22:35,804 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:22:35,804 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:22:35,805 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:22:36,463 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:22:38,819 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:43,836 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:48,860 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:49,167 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:22:49,298 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:22:49,298 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:22:54,597 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:22:59,611 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:04,307 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:23:04,307 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:23:05,583 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:10,601 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:15,620 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:19,168 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:23:19,307 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:23:19,307 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:23:21,520 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:24,750 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:23:24,751 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:23:24,751 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:23:24,751 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:23:25,645 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:23:26,758 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:27,655 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:23:31,779 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:34,315 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:23:34,316 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:23:37,504 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:42,526 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:47,539 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:49,172 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:23:49,318 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:23:49,318 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:23:52,587 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:23:57,612 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:02,622 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:04,318 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:24:04,319 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:24:08,538 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:13,563 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:15,522 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:24:15,522 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:24:15,522 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:24:15,523 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:24:15,896 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:24:19,175 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:24:19,177 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:19,321 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:24:19,321 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:24:24,571 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:29,596 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:34,323 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:24:34,323 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:24:34,609 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:39,624 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:44,663 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:49,177 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:24:49,326 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:24:49,327 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:24:50,580 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:24:55,618 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:00,640 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:04,327 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:25:04,327 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:25:06,540 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:08,409 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:25:08,410 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:25:08,410 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:25:08,411 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:25:09,083 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:25:12,424 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:17,452 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:19,182 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:25:19,327 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:25:19,327 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:25:22,606 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:27,620 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:32,629 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:34,329 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:25:34,330 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:25:38,533 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:43,557 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:48,574 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:49,184 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:25:49,330 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:25:49,331 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:25:53,603 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:25:58,614 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:00,945 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:26:00,945 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:26:00,946 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:26:00,947 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:26:01,275 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:26:03,959 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:04,340 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:26:04,341 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:26:09,583 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:14,603 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:19,192 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:26:19,342 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:26:19,343 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:26:20,587 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:25,600 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:30,617 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:34,351 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:26:34,351 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:26:36,575 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:41,588 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:46,594 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:49,194 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:26:49,354 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:26:49,355 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:26:51,600 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:26:52,789 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:26:52,790 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:26:52,790 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:26:52,791 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:26:53,492 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:26:56,806 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:01,834 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:04,356 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:27:04,357 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:27:07,741 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:12,760 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:17,780 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:19,205 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:27:19,365 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:27:19,365 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:27:23,531 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:28,546 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:33,571 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:34,372 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:27:34,373 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:27:39,571 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:44,585 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:46,176 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:27:46,176 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:27:46,177 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:27:46,177 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:27:46,679 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:27:47,679 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:27:49,207 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:27:49,374 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:27:49,374 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:27:49,644 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:54,669 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:27:59,686 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:04,379 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:28:04,379 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:28:05,611 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:10,622 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:15,637 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:19,209 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:28:19,380 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:28:19,381 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:28:21,606 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:26,629 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:31,641 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:34,380 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:28:34,381 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:28:37,619 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:41,750 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:28:41,751 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:28:41,751 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:28:41,752 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:28:41,895 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:28:42,756 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:47,766 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:49,212 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:28:49,380 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:28:49,381 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:28:53,583 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:28:58,607 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:03,617 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:04,390 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:29:04,390 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:29:08,764 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:13,788 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:18,796 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:19,219 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:29:19,391 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:29:19,392 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:29:24,577 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:29,597 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:34,398 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:29:34,398 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:29:34,602 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:39,624 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:39,994 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:29:39,995 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:29:39,995 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:29:39,996 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:29:40,124 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:29:45,009 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:49,225 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:29:49,399 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:29:49,399 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:29:50,608 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:29:55,645 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:00,671 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:04,408 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:30:04,409 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:30:06,586 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:11,592 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:16,615 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:19,227 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:30:19,410 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:30:19,410 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:30:21,669 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:26,690 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:31,717 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:34,416 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:30:34,416 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:30:37,609 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:37,639 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:30:37,639 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:30:37,640 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:30:37,640 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:30:38,369 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:30:42,659 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:47,681 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:49,233 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:30:49,416 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:30:49,416 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:30:53,459 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:30:58,481 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:03,510 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:04,417 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:31:04,417 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:31:08,638 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:13,667 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:18,680 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:19,234 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:31:19,418 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:31:19,418 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:31:23,700 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:28,734 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:33,765 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:34,423 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:31:34,423 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:31:36,860 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:31:36,861 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:31:36,861 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:31:36,862 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:31:37,642 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:31:38,866 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:43,885 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:48,911 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:49,235 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:31:49,423 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:31:49,424 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:31:54,618 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:31:59,637 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:04,428 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:32:04,429 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:32:04,647 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:09,662 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:14,676 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:19,236 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:32:19,436 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:32:19,436 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:32:20,645 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:25,661 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:30,684 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:33,766 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:32:33,766 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:32:33,767 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:32:33,767 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:32:33,831 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:32:34,436 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:32:34,437 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:32:35,838 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:32:36,664 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:41,686 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:46,703 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:49,239 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:32:49,437 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:32:49,437 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:32:52,630 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:32:57,654 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:02,677 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:04,443 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:33:04,444 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:33:08,656 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:13,670 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:18,679 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:19,240 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:33:19,445 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:33:19,446 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:33:23,746 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:28,773 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:32,146 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:33:32,148 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:33:32,148 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:33:32,149 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:33:33,072 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:33:34,154 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:34,449 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:33:34,449 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:33:39,792 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:44,830 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:49,251 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:33:49,455 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:33:49,456 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:33:50,637 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:33:55,647 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:00,674 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:04,464 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:34:04,465 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:34:08,838 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:13,864 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:18,899 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:19,253 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:34:19,467 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:34:19,467 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:34:24,751 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:29,782 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:31,645 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:34:31,646 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:34:31,646 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:34:31,647 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:34:32,339 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:34:34,479 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:34:34,479 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:34:34,789 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:39,816 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:44,847 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:49,254 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:34:49,481 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:34:49,481 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:34:50,652 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:34:55,678 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:00,686 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:04,481 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:35:04,482 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:35:06,668 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:11,686 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:16,701 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:19,258 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:35:19,482 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:35:19,482 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:35:22,690 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:27,724 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:32,207 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:35:32,207 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:35:32,208 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:35:32,209 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:35:32,509 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:35:33,218 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:34,482 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:35:34,482 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:35:38,686 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:43,701 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:48,725 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:49,269 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:35:49,482 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:35:49,483 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:35:54,692 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:35:59,708 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:04,483 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:36:04,483 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:36:04,710 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:09,733 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:14,742 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:19,275 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:36:19,484 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:36:19,485 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:36:20,652 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:25,676 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:30,692 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:31,571 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:36:31,572 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:36:31,572 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:36:31,573 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:36:31,725 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:36:34,484 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:36:34,485 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:36:35,820 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:40,835 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:45,850 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:49,276 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:36:49,486 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:36:49,486 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:36:51,726 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:36:56,743 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:01,767 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:04,486 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:37:04,487 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:37:06,820 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:11,827 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:16,860 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:19,278 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:37:19,489 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 21:37:19,490 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: stop_status
+2024-07-26 21:37:22,759 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:27,785 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:31,843 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-26 21:37:31,844 DEBUG   SenderThread:16102 [sender.py:send():378] send: history
+2024-07-26 21:37:31,844 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: summary_record
+2024-07-26 21:37:31,846 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:37:31,846 DEBUG   SenderThread:16102 [sender.py:send():378] send: telemetry
+2024-07-26 21:37:31,846 DEBUG   SenderThread:16102 [sender.py:send():378] send: files
+2024-07-26 21:37:31,846 DEBUG   SenderThread:16102 [sender.py:send():378] send: telemetry
+2024-07-26 21:37:31,846 DEBUG   SenderThread:16102 [sender.py:send():378] send: exit
+2024-07-26 21:37:31,846 INFO    SenderThread:16102 [sender.py:send_exit():585] handling exit code: 0
+2024-07-26 21:37:31,846 INFO    SenderThread:16102 [sender.py:send_exit():587] handling runtime: 1302
+2024-07-26 21:37:31,847 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:37:31,847 INFO    SenderThread:16102 [sender.py:send_exit():593] send defer
+2024-07-26 21:37:31,847 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,847 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-26 21:37:31,847 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,847 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-07-26 21:37:31,848 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 1
+2024-07-26 21:37:31,848 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,848 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-26 21:37:31,848 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,848 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-07-26 21:37:31,848 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 2
+2024-07-26 21:37:31,848 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,848 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-26 21:37:31,848 INFO    HandlerThread:16102 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-26 21:37:31,849 DEBUG   SystemMonitor:16102 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-26 21:37:31,849 INFO    HandlerThread:16102 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-26 21:37:31,849 DEBUG   SystemMonitor:16102 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-26 21:37:31,849 INFO    HandlerThread:16102 [interfaces.py:finish():200] Joined disk monitor
+2024-07-26 21:37:31,850 INFO    HandlerThread:16102 [interfaces.py:finish():200] Joined memory monitor
+2024-07-26 21:37:31,850 INFO    HandlerThread:16102 [interfaces.py:finish():200] Joined network monitor
+2024-07-26 21:37:31,850 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,850 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-07-26 21:37:31,850 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 3
+2024-07-26 21:37:31,850 DEBUG   SenderThread:16102 [sender.py:send():378] send: stats
+2024-07-26 21:37:31,850 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,851 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-26 21:37:31,851 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,851 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-07-26 21:37:31,851 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 4
+2024-07-26 21:37:31,851 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,851 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-26 21:37:31,851 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,852 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-07-26 21:37:31,852 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 5
+2024-07-26 21:37:31,852 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,852 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-26 21:37:31,852 DEBUG   SenderThread:16102 [sender.py:send():378] send: summary
+2024-07-26 21:37:31,853 INFO    SenderThread:16102 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-07-26 21:37:31,853 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,853 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-07-26 21:37:31,853 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 6
+2024-07-26 21:37:31,853 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:31,853 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-26 21:37:31,853 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:31,853 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-07-26 21:37:31,856 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 21:37:31,911 INFO    Thread-12 :16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:37:32,068 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 7
+2024-07-26 21:37:32,068 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:32,069 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-26 21:37:32,069 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:32,069 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-07-26 21:37:32,296 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 8
+2024-07-26 21:37:32,297 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:32,297 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-26 21:37:32,297 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:32,297 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-07-26 21:37:32,297 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 9
+2024-07-26 21:37:32,297 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:32,297 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-26 21:37:32,298 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:32,298 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-07-26 21:37:32,298 INFO    SenderThread:16102 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-26 21:37:32,852 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 21:37:32,922 INFO    SenderThread:16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/config.yaml
+2024-07-26 21:37:32,922 INFO    SenderThread:16102 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:37:32,923 INFO    SenderThread:16102 [dir_watcher.py:finish():388] scan: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files
+2024-07-26 21:37:32,923 INFO    SenderThread:16102 [dir_watcher.py:finish():402] scan save: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/requirements.txt requirements.txt
+2024-07-26 21:37:32,923 INFO    SenderThread:16102 [dir_watcher.py:finish():402] scan save: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log output.log
+2024-07-26 21:37:32,926 INFO    SenderThread:16102 [dir_watcher.py:finish():402] scan save: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/config.yaml config.yaml
+2024-07-26 21:37:32,926 INFO    SenderThread:16102 [dir_watcher.py:finish():402] scan save: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json wandb-summary.json
+2024-07-26 21:37:32,930 INFO    SenderThread:16102 [dir_watcher.py:finish():402] scan save: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-metadata.json wandb-metadata.json
+2024-07-26 21:37:32,930 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 10
+2024-07-26 21:37:32,930 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: poll_exit
+2024-07-26 21:37:32,931 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:32,932 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-26 21:37:32,932 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:32,932 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-07-26 21:37:32,934 INFO    SenderThread:16102 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-26 21:37:33,544 INFO    wandb-upload_1:16102 [upload_job.py:push():130] Uploaded file /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/output.log
+2024-07-26 21:37:33,544 INFO    wandb-upload_0:16102 [upload_job.py:push():130] Uploaded file /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/requirements.txt
+2024-07-26 21:37:33,554 INFO    wandb-upload_3:16102 [upload_job.py:push():130] Uploaded file /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/wandb-summary.json
+2024-07-26 21:37:33,555 INFO    wandb-upload_2:16102 [upload_job.py:push():130] Uploaded file /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/files/config.yaml
+2024-07-26 21:37:33,762 INFO    Thread-11 (_thread_body):16102 [sender.py:transition_state():613] send defer: 11
+2024-07-26 21:37:33,763 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:33,763 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-26 21:37:33,764 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:33,764 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-07-26 21:37:33,764 INFO    SenderThread:16102 [file_pusher.py:join():175] waiting for file pusher
+2024-07-26 21:37:33,767 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 12
+2024-07-26 21:37:33,767 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:33,767 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-26 21:37:33,767 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:33,767 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-07-26 21:37:33,767 INFO    SenderThread:16102 [file_stream.py:finish():601] file stream finish called
+2024-07-26 21:37:33,858 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 21:37:34,573 INFO    SenderThread:16102 [file_stream.py:finish():605] file stream finish is done
+2024-07-26 21:37:34,573 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 13
+2024-07-26 21:37:34,573 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: poll_exit
+2024-07-26 21:37:34,573 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:34,573 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-26 21:37:34,574 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:34,574 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-07-26 21:37:34,574 INFO    SenderThread:16102 [sender.py:transition_state():613] send defer: 14
+2024-07-26 21:37:34,574 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 21:37:34,574 INFO    HandlerThread:16102 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-26 21:37:34,575 DEBUG   SenderThread:16102 [sender.py:send():378] send: final
+2024-07-26 21:37:34,575 DEBUG   SenderThread:16102 [sender.py:send():378] send: footer
+2024-07-26 21:37:34,575 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: defer
+2024-07-26 21:37:34,575 INFO    SenderThread:16102 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-07-26 21:37:34,576 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 21:37:34,576 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: poll_exit
+2024-07-26 21:37:34,577 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 21:37:34,578 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: server_info
+2024-07-26 21:37:34,578 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-26 21:37:34,578 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-26 21:37:34,579 DEBUG   SenderThread:16102 [sender.py:send_request():405] send_request: server_info
+2024-07-26 21:37:34,737 DEBUG   HandlerThread:16102 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-26 21:37:34,737 INFO    HandlerThread:16102 [handler.py:finish():882] shutting down handler
+2024-07-26 21:37:35,588 INFO    WriterThread:16102 [datastore.py:close():296] close: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240726_211548-2tdgwnsd/run-2tdgwnsd.wandb
+2024-07-26 21:37:35,744 INFO    SenderThread:16102 [sender.py:finish():1545] shutting down sender
+2024-07-26 21:37:35,744 INFO    SenderThread:16102 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-26 21:37:35,744 INFO    SenderThread:16102 [file_pusher.py:join():175] waiting for file pusher

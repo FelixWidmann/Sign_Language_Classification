@@ -1,0 +1,56 @@
+SimpleCNN(
+  (conv1): Conv2d(1, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu1): ReLU()
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu2): ReLU()
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv3): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu3): ReLU()
+  (pool3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=1024, out_features=120, bias=True)
+  (relu4): ReLU()
+  (drop1): Dropout(p=0.5, inplace=False)
+  (fc2): Linear(in_features=120, out_features=25, bias=True)
+)
+SimpleCNN(
+  (conv1): Conv2d(1, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu1): ReLU()
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu2): ReLU()
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv3): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu3): ReLU()
+  (pool3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=1024, out_features=120, bias=True)
+  (relu4): ReLU()
+  (drop1): Dropout(p=0.5, inplace=False)
+  (fc2): Linear(in_features=120, out_features=25, bias=True)
+)
+SimpleCNN(
+  (conv1): Conv2d(1, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu1): ReLU()
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu2): ReLU()
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv3): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (relu3): ReLU()
+  (pool3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=576, out_features=120, bias=True)
+  (relu4): ReLU()
+  (drop1): Dropout(p=0.5, inplace=False)
+  (fc2): Linear(in_features=120, out_features=25, bias=True)
+)
+epoch:  0  loss: 1.18969345
+epoch:  1  loss: 0.18137287
+epoch:  2  loss: 0.07618365
+epoch:  3  loss: 0.06857783
+epoch:  4  loss: 0.03128649
+epoch:  5  loss: 0.02779273
+epoch:  6  loss: 0.02555411
+epoch:  7  loss: 0.01889489
+epoch:  8  loss: 0.01785558
+epoch:  9  loss: 0.01681794
+Duration: 247.602 seconds

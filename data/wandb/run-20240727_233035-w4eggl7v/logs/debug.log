@@ -1,0 +1,41 @@
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Configure stats pid to 7954
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/.config/wandb/settings
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/settings
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'machine-learning-project', 'entity': 'felix-organisation', 'root_dir': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data', 'sweep_id': '5r6hy51z', 'run_id': 'w4eggl7v', 'sweep_param_path': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/sweep-5r6hy51z/config-w4eggl7v.yaml'}
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-27 23:30:35,551 INFO    Thread-19 (_run_job):7954 [wandb_init.py:_log_setup():529] Logging user logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_233035-w4eggl7v/logs/debug.log
+2024-07-27 23:30:35,552 INFO    Thread-19 (_run_job):7954 [wandb_init.py:_log_setup():530] Logging internal logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_233035-w4eggl7v/logs/debug-internal.log
+2024-07-27 23:30:35,552 INFO    Thread-19 (_run_job):7954 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x13593ea10>
+2024-07-27 23:30:35,552 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():569] calling init triggers
+2024-07-27 23:30:35,552 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():576] wandb.init called with sweep_config: {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 5}
+config: {}
+2024-07-27 23:30:35,552 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():619] starting backend
+2024-07-27 23:30:35,552 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():623] setting up manager
+2024-07-27 23:30:35,558 INFO    Thread-19 (_run_job):7954 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-27 23:30:35,558 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():631] backend started and connected
+2024-07-27 23:30:35,569 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_config_callback():1382] config_cb None None {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 5}
+2024-07-27 23:30:35,572 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-27 23:30:35,572 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-27 23:30:35,572 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():720] updated telemetry
+2024-07-27 23:30:35,573 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-27 23:30:35,983 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_on_init():2435] communicating current version
+2024-07-27 23:30:36,082 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_on_init():2444] got version response 
+2024-07-27 23:30:36,082 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():804] starting run threads in backend
+2024-07-27 23:30:36,339 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_console_start():2413] atexit reg
+2024-07-27 23:30:36,339 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-07-27 23:30:36,339 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-07-27 23:30:36,339 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-07-27 23:30:36,340 INFO    Thread-19 (_run_job):7954 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-27 23:33:26,645 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_finish():2107] finishing run felix-organisation/machine-learning-project/w4eggl7v
+2024-07-27 23:33:26,646 ERROR   Thread-19 (_run_job):7954 [jupyter.py:save_history():436] Run pip install nbformat to save notebook history
+2024-07-27 23:33:26,646 INFO    Thread-19 (_run_job):7954 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-27 23:33:26,646 INFO    Thread-19 (_run_job):7954 [wandb_init.py:_jupyter_teardown():457] cleaning up jupyter logic
+2024-07-27 23:33:26,646 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2024-07-27 23:33:26,646 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_restore():2352] restore
+2024-07-27 23:33:26,646 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_restore():2358] restore done
+2024-07-27 23:33:31,822 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-07-27 23:33:31,823 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-07-27 23:33:31,832 INFO    Thread-19 (_run_job):7954 [wandb_run.py:_footer_sync_info():3975] logging synced files

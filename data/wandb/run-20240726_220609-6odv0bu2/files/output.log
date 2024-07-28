@@ -1,0 +1,7 @@
+
+Epoch 5/(16, 0.1, 30), loss 3.20527, val_loss 3.24410, weighted_F1 0.00407
+Epoch 10/(16, 0.1, 30), loss 3.20443, val_loss 3.22378, weighted_F1 0.00310
+Epoch 15/(16, 0.1, 30), loss 3.20539, val_loss 3.22320, weighted_F1 0.00358
+Epoch 20/(16, 0.1, 30), loss 3.20785, val_loss 3.20557, weighted_F1 0.00358
+Epoch 25/(16, 0.1, 30), loss 3.20670, val_loss 3.21069, weighted_F1 0.00231
+Epoch 30/(16, 0.1, 30), loss 3.20498, val_loss 3.22740, weighted_F1 0.00449

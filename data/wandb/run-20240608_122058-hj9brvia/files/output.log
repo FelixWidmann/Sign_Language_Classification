@@ -1,0 +1,12 @@
+
+epoch:  0  loss: 1.13758552
+epoch:  1  loss: 0.15111497
+epoch:  2  loss: 0.06614334
+epoch:  3  loss: 0.04648892
+epoch:  4  loss: 0.03205437
+epoch:  5  loss: 0.02503387
+epoch:  6  loss: 0.01940752
+epoch:  7  loss: 0.02039317
+epoch:  8  loss: 0.01635821
+epoch:  9  loss: 0.01436518
+Duration: 234.059 seconds

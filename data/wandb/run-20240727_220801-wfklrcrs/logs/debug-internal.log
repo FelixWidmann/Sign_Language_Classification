@@ -1,0 +1,42 @@
+2024-07-27 22:08:01,962 INFO    StreamThr :24768 [internal.py:wandb_internal():85] W&B internal server running at pid: 24768, started at: 2024-07-27 22:08:01.961137
+2024-07-27 22:08:01,963 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: status
+2024-07-27 22:08:01,975 INFO    WriterThread:24768 [datastore.py:open_for_write():87] open: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_220801-wfklrcrs/run-wfklrcrs.wandb
+2024-07-27 22:08:01,975 DEBUG   SenderThread:24768 [sender.py:send():378] send: header
+2024-07-27 22:08:01,976 DEBUG   SenderThread:24768 [sender.py:send():378] send: run
+2024-07-27 22:08:02,360 INFO    SenderThread:24768 [dir_watcher.py:__init__():211] watching files in: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_220801-wfklrcrs/files
+2024-07-27 22:08:02,360 INFO    SenderThread:24768 [sender.py:_start_run_threads():1123] run started: wfklrcrs with start time 1722110881.96091
+2024-07-27 22:08:02,375 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: check_version
+2024-07-27 22:08:02,375 DEBUG   SenderThread:24768 [sender.py:send_request():405] send_request: check_version
+2024-07-27 22:08:02,493 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: run_start
+2024-07-27 22:08:02,504 DEBUG   HandlerThread:24768 [system_info.py:__init__():26] System info init
+2024-07-27 22:08:02,505 DEBUG   HandlerThread:24768 [system_info.py:__init__():41] System info init done
+2024-07-27 22:08:02,505 INFO    HandlerThread:24768 [system_monitor.py:start():194] Starting system monitor
+2024-07-27 22:08:02,505 INFO    SystemMonitor:24768 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-27 22:08:02,505 INFO    HandlerThread:24768 [system_monitor.py:probe():214] Collecting system info
+2024-07-27 22:08:02,506 INFO    SystemMonitor:24768 [interfaces.py:start():188] Started cpu monitoring
+2024-07-27 22:08:02,507 INFO    SystemMonitor:24768 [interfaces.py:start():188] Started disk monitoring
+2024-07-27 22:08:02,507 DEBUG   HandlerThread:24768 [system_info.py:probe():150] Probing system
+2024-07-27 22:08:02,507 INFO    SystemMonitor:24768 [interfaces.py:start():188] Started memory monitoring
+2024-07-27 22:08:02,509 INFO    SystemMonitor:24768 [interfaces.py:start():188] Started network monitoring
+2024-07-27 22:08:02,518 DEBUG   HandlerThread:24768 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-27 22:08:02,519 DEBUG   HandlerThread:24768 [system_info.py:probe():198] Probing system done
+2024-07-27 22:08:02,519 DEBUG   HandlerThread:24768 [system_monitor.py:probe():223] {'os': 'macOS-14.3.1-x86_64-i386-64bit', 'python': '3.11.8', 'heartbeatAt': '2024-07-27T20:08:02.507813', 'startedAt': '2024-07-27T20:08:01.946971', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'MacBook-Pro-von-Felix-2.fritz.box', 'username': 'felixwidmann', 'executable': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 465.62699127197266, 'used': 13.3900146484375}}, 'memory': {'total': 32.0}}
+2024-07-27 22:08:02,519 INFO    HandlerThread:24768 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-27 22:08:02,519 INFO    HandlerThread:24768 [system_monitor.py:probe():227] Publishing system info
+2024-07-27 22:08:02,520 INFO    HandlerThread:24768 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-27 22:08:02,522 DEBUG   SenderThread:24768 [sender.py:send():378] send: files
+2024-07-27 22:08:02,522 INFO    SenderThread:24768 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-07-27 22:08:02,608 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-27 22:08:02,608 DEBUG   SenderThread:24768 [sender.py:send_request():405] send_request: python_packages
+2024-07-27 22:08:02,609 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-27 22:08:02,609 DEBUG   SenderThread:24768 [sender.py:send_request():405] send_request: stop_status
+2024-07-27 22:08:02,809 DEBUG   SenderThread:24768 [sender.py:send():378] send: telemetry
+2024-07-27 22:08:03,105 INFO    wandb-upload_0:24768 [upload_job.py:push():130] Uploaded file /var/folders/k7/386dbb0555z58pfypthxc1mw0000gn/T/tmp43y6e42gwandb/wcmrhifw-wandb-metadata.json
+2024-07-27 22:08:03,364 INFO    Thread-12 :24768 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_220801-wfklrcrs/files/requirements.txt
+2024-07-27 22:08:03,365 INFO    Thread-12 :24768 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_220801-wfklrcrs/files/wandb-metadata.json
+2024-07-27 22:08:07,817 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: status_report
+2024-07-27 22:08:12,824 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: status_report
+2024-07-27 22:08:17,614 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-27 22:08:17,614 DEBUG   SenderThread:24768 [sender.py:send_request():405] send_request: stop_status
+2024-07-27 22:08:17,933 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: status_report
+2024-07-27 22:08:22,943 DEBUG   HandlerThread:24768 [handler.py:handle_request():158] handle_request: status_report

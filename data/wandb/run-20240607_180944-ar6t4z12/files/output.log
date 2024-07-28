@@ -1,0 +1,12 @@
+
+epoch:  0  loss: 157.86689758 weighted F1 Score: 0.8479485473990496
+epoch:  1  loss: 4.33827543 weighted F1 Score: 0.9977414235573343
+epoch:  2  loss: 2.06483793 weighted F1 Score: 0.9986159982182589
+epoch:  3  loss: 0.18528636 weighted F1 Score: 1.0
+epoch:  4  loss: 0.10508140 weighted F1 Score: 1.0
+epoch:  5  loss: 0.07038616 weighted F1 Score: 1.0
+epoch:  6  loss: 0.05098898 weighted F1 Score: 1.0
+epoch:  7  loss: 0.03838166 weighted F1 Score: 1.0
+epoch:  8  loss: 0.02834615 weighted F1 Score: 1.0
+epoch:  9  loss: 0.02195667 weighted F1 Score: 1.0
+Duration: 56.515 seconds

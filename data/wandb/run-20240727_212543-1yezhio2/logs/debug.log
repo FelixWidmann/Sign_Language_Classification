@@ -1,0 +1,216 @@
+2024-07-27 21:25:43,130 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Configure stats pid to 7345
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/.config/wandb/settings
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/settings
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'machine-learning-project', 'entity': 'felix-organisation', 'root_dir': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data', 'sweep_id': '574vd3k7', 'run_id': '1yezhio2', 'sweep_param_path': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/sweep-574vd3k7/config-1yezhio2.yaml'}
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_init.py:_log_setup():520] Logging user logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_212543-1yezhio2/logs/debug.log
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_212543-1yezhio2/logs/debug-internal.log
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x15fc654d0>
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():560] calling init triggers
+2024-07-27 21:25:43,131 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():567] wandb.init called with sweep_config: {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 20}
+config: {}
+2024-07-27 21:25:43,132 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():610] starting backend
+2024-07-27 21:25:43,132 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():614] setting up manager
+2024-07-27 21:25:43,137 INFO    Thread-82 (_run_job):7345 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-27 21:25:43,138 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():622] backend started and connected
+2024-07-27 21:25:43,149 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_config_callback():1376] config_cb None None {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 20}
+2024-07-27 21:25:43,152 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-07-27 21:25:43,152 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-27 21:25:43,152 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():711] updated telemetry
+2024-07-27 21:25:43,154 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-27 21:25:43,520 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_on_init():2396] communicating current version
+2024-07-27 21:25:43,662 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-27 21:25:43,662 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():795] starting run threads in backend
+2024-07-27 21:25:43,872 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_console_start():2374] atexit reg
+2024-07-27 21:25:43,872 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-07-27 21:25:43,873 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-07-27 21:25:43,873 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-07-27 21:25:43,874 INFO    Thread-82 (_run_job):7345 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-27 21:30:06,315 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:06,315 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:32,139 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:32,141 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:32,142 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:32,151 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:32,156 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:32,156 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:32,167 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:36,278 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:36,279 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:36,288 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:36,771 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:36,771 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:36,780 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:36,789 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:36,790 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:36,801 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:36,924 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:36,925 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:36,936 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:39,165 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:39,166 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:39,186 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:39,191 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:39,191 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:39,201 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:39,203 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:39,203 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:39,224 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:39,230 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 21:30:39,230 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 21:30:39,240 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 21:30:39,701 INFO    MainThread:7345 [pyagent.py:run():323] Starting sweep agent: entity=None, project=None, count=2
+2024-07-27 21:30:50,245 WARNING MsgRouterThr:7345 [router.py:message_loop():77] message_loop has been closed
+2024-07-27 21:30:51,006 ERROR   Thread-86 (_run_job):7345 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2024-07-27 21:30:52,684 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-07-27 21:30:52,684 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Configure stats pid to 7345
+2024-07-27 21:30:52,684 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/.config/wandb/settings
+2024-07-27 21:30:52,684 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/settings
+2024-07-27 21:30:52,685 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'machine-learning-project', 'entity': 'felix-organisation', 'root_dir': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data', 'sweep_id': 'kyfj8wso', 'run_id': 'l096d6sm', 'sweep_param_path': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/sweep-kyfj8wso/config-l096d6sm.yaml'}
+2024-07-27 21:30:52,685 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-27 21:30:52,685 INFO    Thread-86 (_run_job):7345 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-27 21:30:52,685 INFO    Thread-86 (_run_job):7345 [wandb_init.py:_log_setup():520] Logging user logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_213052-l096d6sm/logs/debug.log
+2024-07-27 21:30:52,685 INFO    Thread-86 (_run_job):7345 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_213052-l096d6sm/logs/debug-internal.log
+2024-07-27 21:30:52,686 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():560] calling init triggers
+2024-07-27 21:30:52,686 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():567] wandb.init called with sweep_config: {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 20}
+config: {}
+2024-07-27 21:30:52,686 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():610] starting backend
+2024-07-27 21:30:52,686 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():614] setting up manager
+2024-07-27 21:30:52,692 INFO    Thread-86 (_run_job):7345 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-27 21:30:52,693 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():622] backend started and connected
+2024-07-27 21:30:52,706 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_config_callback():1376] config_cb None None {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 20}
+2024-07-27 21:30:52,712 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-07-27 21:30:52,712 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-27 21:30:52,712 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():711] updated telemetry
+2024-07-27 21:30:52,714 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-27 21:30:53,656 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_on_init():2396] communicating current version
+2024-07-27 21:30:53,737 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-27 21:30:53,737 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():795] starting run threads in backend
+2024-07-27 21:30:53,920 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_console_start():2374] atexit reg
+2024-07-27 21:30:53,921 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-07-27 21:30:53,921 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-07-27 21:30:53,921 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-07-27 21:30:53,922 INFO    Thread-86 (_run_job):7345 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-27 21:31:43,383 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_finish():2103] finishing run felix-organisation/machine-learning-project/l096d6sm
+2024-07-27 21:31:43,384 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 1
+2024-07-27 21:31:43,384 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_restore():2326] restore
+2024-07-27 21:31:43,385 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_restore():2332] restore done
+2024-07-27 21:31:46,377 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-07-27 21:31:46,378 INFO    Thread-82 (_run_job):7345 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-07-27 21:44:19,025 INFO    Thread-86 (_run_job):7345 [wandb_run.py:_finish():2103] finishing run felix-organisation/machine-learning-project/l096d6sm
+2024-07-27 21:44:21,799 ERROR   Thread-90 (_run_job):7345 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2024-07-27 21:44:23,046 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-07-27 21:44:23,046 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Configure stats pid to 7345
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/.config/wandb/settings
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/settings
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'machine-learning-project', 'entity': 'felix-organisation', 'root_dir': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data', 'run_id': '0fuq4k86', 'sweep_param_path': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/sweep-kyfj8wso/config-0fuq4k86.yaml', 'sweep_id': 'kyfj8wso'}
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_init.py:_log_setup():520] Logging user logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_214423-0fuq4k86/logs/debug.log
+2024-07-27 21:44:23,047 INFO    Thread-90 (_run_job):7345 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_214423-0fuq4k86/logs/debug-internal.log
+2024-07-27 21:44:23,048 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():560] calling init triggers
+2024-07-27 21:44:23,048 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():567] wandb.init called with sweep_config: {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 25}
+config: {}
+2024-07-27 21:44:23,048 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():610] starting backend
+2024-07-27 21:44:23,048 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():614] setting up manager
+2024-07-27 21:44:23,053 INFO    Thread-90 (_run_job):7345 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-27 21:44:23,053 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():622] backend started and connected
+2024-07-27 21:44:23,063 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_config_callback():1376] config_cb None None {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 25}
+2024-07-27 21:44:23,066 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-07-27 21:44:23,066 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-27 21:44:23,066 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():711] updated telemetry
+2024-07-27 21:44:23,067 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-27 21:44:23,834 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_on_init():2396] communicating current version
+2024-07-27 21:44:23,915 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-27 21:44:23,915 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():795] starting run threads in backend
+2024-07-27 21:44:24,104 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_console_start():2374] atexit reg
+2024-07-27 21:44:24,104 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-07-27 21:44:24,104 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-07-27 21:44:24,104 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-07-27 21:44:24,105 INFO    Thread-90 (_run_job):7345 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-27 22:01:56,734 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_finish():2103] finishing run felix-organisation/machine-learning-project/0fuq4k86
+2024-07-27 22:01:56,735 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-07-27 22:01:56,735 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_restore():2326] restore
+2024-07-27 22:01:56,735 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_restore():2332] restore done
+2024-07-27 22:02:01,542 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-07-27 22:02:01,542 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-07-27 22:02:01,551 INFO    Thread-90 (_run_job):7345 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-07-27 22:02:01,555 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:02:01,556 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:02:02,581 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:02:02,722 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:02:02,722 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:54,446 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:54,496 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:54,496 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:54,547 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:54,597 INFO    MainThread:7345 [wandb_settings.py:_apply_login():1895] Applying login settings: {}
+2024-07-27 22:07:54,600 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:54,600 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:54,653 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:57,171 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:57,172 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:57,220 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:57,534 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:57,534 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:57,585 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:57,633 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:57,633 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:57,686 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:57,795 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:57,795 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:57,849 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:58,938 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:58,938 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:58,994 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:59,041 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:59,042 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:59,095 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:59,135 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:59,135 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:59,185 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:59,231 INFO    MainThread:7345 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-27 22:07:59,231 INFO    MainThread:7345 [wandb_init.py:_pause_backend():431] pausing backend
+2024-07-27 22:07:59,286 INFO    MainThread:7345 [wandb_init.py:_resume_backend():436] resuming backend
+2024-07-27 22:07:59,407 INFO    MainThread:7345 [wandb_settings.py:_apply_login():1895] Applying login settings: {}
+2024-07-27 22:07:59,834 INFO    MainThread:7345 [wandb_settings.py:_apply_login():1895] Applying login settings: {}
+2024-07-27 22:07:59,835 INFO    MainThread:7345 [pyagent.py:run():323] Starting sweep agent: entity=None, project=None, count=1
+2024-07-27 22:08:00,696 ERROR   Thread-94 (_run_job):7345 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2024-07-27 22:08:01,951 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-07-27 22:08:01,951 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Configure stats pid to 7345
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/.config/wandb/settings
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/settings
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'machine-learning-project', 'entity': 'felix-organisation', 'root_dir': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data', 'sweep_id': 'gcbo9jfl', 'run_id': 'wfklrcrs', 'sweep_param_path': '/Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/sweep-gcbo9jfl/config-wfklrcrs.yaml'}
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_init.py:_log_setup():520] Logging user logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_220801-wfklrcrs/logs/debug.log
+2024-07-27 22:08:01,952 INFO    Thread-94 (_run_job):7345 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/felixwidmann/Documents/DHBW/ML_Assignment/data/wandb/run-20240727_220801-wfklrcrs/logs/debug-internal.log
+2024-07-27 22:08:01,953 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():560] calling init triggers
+2024-07-27 22:08:01,953 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():567] wandb.init called with sweep_config: {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 20}
+config: {}
+2024-07-27 22:08:01,953 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():610] starting backend
+2024-07-27 22:08:01,953 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():614] setting up manager
+2024-07-27 22:08:01,960 INFO    Thread-94 (_run_job):7345 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-27 22:08:01,960 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():622] backend started and connected
+2024-07-27 22:08:01,971 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_config_callback():1376] config_cb None None {'batch_size': 32, 'learning_rate': 0.001, 'n_epochs': 20}
+2024-07-27 22:08:01,974 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-07-27 22:08:01,974 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-27 22:08:01,975 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():711] updated telemetry
+2024-07-27 22:08:01,975 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-27 22:08:02,374 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_on_init():2396] communicating current version
+2024-07-27 22:08:02,487 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-27 22:08:02,487 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():795] starting run threads in backend
+2024-07-27 22:08:02,609 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_console_start():2374] atexit reg
+2024-07-27 22:08:02,609 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-07-27 22:08:02,609 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-07-27 22:08:02,609 INFO    Thread-94 (_run_job):7345 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-07-27 22:08:02,609 INFO    Thread-94 (_run_job):7345 [wandb_init.py:init():838] run started, returning control to user process
